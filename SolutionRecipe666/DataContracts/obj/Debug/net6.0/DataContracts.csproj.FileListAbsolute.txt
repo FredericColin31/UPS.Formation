@@ -10,3 +10,15 @@ C:\Users\frederic.colin\source\repos\SolutionRecipe666\DataContracts\obj\Debug\n
 C:\Users\frederic.colin\source\repos\SolutionRecipe666\DataContracts\obj\Debug\net6.0\refint\DataContracts.dll
 C:\Users\frederic.colin\source\repos\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.pdb
 C:\Users\frederic.colin\source\repos\SolutionRecipe666\DataContracts\obj\Debug\net6.0\ref\DataContracts.dll
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\bin\Debug\net6.0\DataContracts.deps.json
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\bin\Debug\net6.0\DataContracts.dll
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\bin\Debug\net6.0\DataContracts.pdb
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.csproj.AssemblyReference.cache
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.AssemblyInfoInputs.cache
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.AssemblyInfo.cs
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.csproj.CoreCompileInputs.cache
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.dll
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\refint\DataContracts.dll
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\DataContracts.pdb
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\DataContracts\obj\Debug\net6.0\ref\DataContracts.dll

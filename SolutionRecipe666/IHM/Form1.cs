@@ -11,9 +11,7 @@ namespace IHM
 
         private void button1_Click(object sender, EventArgs e)
         {
-            var obj = new ObjectRecipesService();
-
-            dataGridView1.DataSource = obj.GetAll();
+            dataGridView1.DataSource = Factory.Instance?.GetAll();
         }
     }
 }
