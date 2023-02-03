@@ -1,0 +1,122 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "DataContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/DataContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataContracts.dll": {}
+        }
+      },
+      "ServicesContracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DataContracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ServicesContracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ServicesContracts.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DataContracts/1.0.0": {
+      "type": "project",
+      "path": "../DataContracts/DataContracts.csproj",
+      "msbuildProject": "../DataContracts/DataContracts.csproj"
+    },
+    "ServicesContracts/1.0.0": {
+      "type": "project",
+      "path": "../ServicesContracts/ServicesContracts.csproj",
+      "msbuildProject": "../ServicesContracts/ServicesContracts.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "DataContracts >= 1.0.0",
+      "ServicesContracts >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\frederic.colin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\Services\\Services.csproj",
+      "projectName": "Services",
+      "projectPath": "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\Services\\Services.csproj",
+      "packagesPath": "C:\\Users\\frederic.colin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\frederic.colin\\Source\\Repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\frederic.colin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://adenes.pkgs.visualstudio.com/0_Adenes/_packaging/PackageInterneDotNet/nuget/v3/index.json": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packages.infragistics.com/nuget/licensed": {},
+        "https://pkgs.dev.azure.com/Equadex/_packaging/Equadex/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\DataContracts\\DataContracts.csproj": {
+              "projectPath": "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\DataContracts\\DataContracts.csproj"
+            },
+            "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\ServicesContracts\\ServicesContracts.csproj": {
+              "projectPath": "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\ServicesContracts\\ServicesContracts.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
