@@ -15,7 +15,10 @@ namespace Services
         {
             var xdoc = XDocument.Load("recipes.xml");
 
-            return xdoc.Descendants("recipe").Select(@node => new Recipe { Id = Guid.Parse(@node?.Attribute("id").Value), Title = @node?.Attribute("title").Value }).ToList();
+            //return xdoc.Descendants("recipe").Select(@node => new Recipe { Id = Guid.Parse(@node?.Attribute("id").Value), Title = @node?.Attribute("title").Value }).ToList();
+
+            return (from XElement node in xdoc.Descendants("recipe") 
+                    select new Recipe { Id = Guid.Parse(@node?.Attribute("id").Value), Title = @node?.Attribute("title").Value }).ToList();
 
 
 
