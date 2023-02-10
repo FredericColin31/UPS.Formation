@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CPISdVAxh0Yc8G0WuD8rXkXCae1K6V7RWRUgSwKh8nTcaICEt5fHVjsJxtBUaiMuKef9PIDAfNSF44M1+jirtQ==",
+  "dgSpecHash": "I+4zXd8Zuo6SCb0IykQX5SHbsIhzAsw5qXqfDYh+83PaKmnN/V1+nHdDaBJ3DApVNIPs3qscHGiwaLVGxF/cDg==",
   "success": true,
   "projectFilePath": "C:\\Users\\frederic.colin\\source\\repos\\GitHub\\UPS.Formation\\SolutionRecipe666\\IHM\\IHM.csproj",
   "expectedPackageFiles": [
@@ -12,6 +12,7 @@
     "C:\\Users\\frederic.colin\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0\\microsoft.extensions.fileproviders.physical.7.0.0.nupkg.sha512",
     "C:\\Users\\frederic.colin\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0\\microsoft.extensions.filesystemglobbing.7.0.0.nupkg.sha512",
     "C:\\Users\\frederic.colin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\frederic.colin\\.nuget\\packages\\newtonsoft.json\\13.0.2\\newtonsoft.json.13.0.2.nupkg.sha512",
     "C:\\Users\\frederic.colin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\frederic.colin\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\frederic.colin\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
