@@ -9,7 +9,7 @@ using System.Xml;
 
 namespace Services
 {
-    public class Xml1RecipeService : AbtractRecipeService
+    public class Xml1RecipesService : AbtractRecipeService
     {
         public override List<Recipe> GetAll()
         {
@@ -21,6 +21,10 @@ namespace Services
 
             var nodes = xmlDoc.SelectNodes("/recipes/recipe");
 
+            foreach(XmlNode node in nodes)
+            {
+                recipes.Add(new Recipe() { Title = node?.Attributes["title"].Value, Id = Guid.Parse(node?.Attributes["id"].Value) });
+            }
 
 
             return recipes;
