@@ -20,7 +20,7 @@ namespace Services
             var cn = config.GetSection("ClassName").Value;
 
             // créer l'instance de la bonne classe concrète
-            Instance = Activator.CreateInstance(afn, cn).Unwrap() as AbtractRecipeService;
+            Instance = (Activator.CreateInstance(afn, cn).Unwrap()) as AbtractRecipeService;
         }
 
         public static AbtractRecipeService? Instance { get; set; }
