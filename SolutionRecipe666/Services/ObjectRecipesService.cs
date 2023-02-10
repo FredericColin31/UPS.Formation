@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Services
 {
-    public class ObjectRecipesService : AbtractRecipeService
+    public class ObjectRecipesService : AbstractRecipeService
     {
         public override List<Recipe> GetAll()
         {

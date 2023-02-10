@@ -60,3 +60,4 @@ C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\IHM\
 C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\IHM\bin\Debug\net6.0-windows\appsettings.json
 C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\IHM\bin\Debug\net6.0-windows\recipes.xml
 C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\IHM\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\frederic.colin\source\repos\GitHub\UPS.Formation\SolutionRecipe666\IHM\bin\Debug\net6.0-windows\recipes.json

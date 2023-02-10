@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ServicesContracts
 {
-    public abstract class AbtractRecipeService
+    public abstract class AbstractRecipeService
     {
         public abstract List<Recipe> GetAll();
     }

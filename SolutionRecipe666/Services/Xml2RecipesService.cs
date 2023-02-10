@@ -9,7 +9,7 @@ using System.Xml.Linq;
 
 namespace Services
 {
-    public class Xml2RecipesService : AbtractRecipeService
+    public class Xml2RecipesService : AbstractRecipeService
     {
         public override List<Recipe> GetAll()
         {
