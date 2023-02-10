@@ -161,6 +161,7 @@
         "dependencies": {
           "DataContracts": "1.0.0",
           "Microsoft.Extensions.Configuration.Json": "7.0.0",
+          "Newtonsoft.Json": "13.0.2",
           "ServicesContracts": "1.0.0"
         },
         "runtime": {
