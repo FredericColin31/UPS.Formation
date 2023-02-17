@@ -236,7 +236,8 @@
       },
       "ServicesContracts/1.0.0": {
         "dependencies": {
-          "DataContracts": "1.0.0"
+          "DataContracts": "1.0.0",
+          "System.Data.SqlClient": "4.8.5"
         },
         "runtime": {
           "ServicesContracts.dll": {}
