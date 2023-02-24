@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IHM", "IHM\IHM.csproj", "{E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServicesContracts", "ServicesContracts\ServicesContracts.csproj", "{30FA9153-DF31-4138-AC12-6B2A73AFFE69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Host\Host.csproj", "{21D25D1A-CF7D-4A5B-8898-02B6D0965FF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{30FA9153-DF31-4138-AC12-6B2A73AFFE69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{30FA9153-DF31-4138-AC12-6B2A73AFFE69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{30FA9153-DF31-4138-AC12-6B2A73AFFE69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21D25D1A-CF7D-4A5B-8898-02B6D0965FF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21D25D1A-CF7D-4A5B-8898-02B6D0965FF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21D25D1A-CF7D-4A5B-8898-02B6D0965FF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21D25D1A-CF7D-4A5B-8898-02B6D0965FF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
