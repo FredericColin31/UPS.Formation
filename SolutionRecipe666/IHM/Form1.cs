@@ -1,3 +1,5 @@
+using DataContracts;
+using Flurl.Http;
 using Newtonsoft.Json;
 using Services;
 
@@ -10,18 +12,20 @@ namespace IHM
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private async void button1_Click(object sender, EventArgs e)
         {
-            dataGridView1.DataSource = Factory.Instance?.GetAll();
-        }
+            var url = "http://localhost:5153/api/v1/Recipes";
+
+            dataGridView1.DataSource = await url.GetJsonAsync<List<Recipe>>();
+         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var recipes = Factory.Instance?.GetAll();
+            //var recipes = Factory.Instance?.GetAll();
 
-            var serializedRecipes = JsonConvert.SerializeObject(recipes);
+            //var serializedRecipes = JsonConvert.SerializeObject(recipes);
 
-            File.AppendAllText(@"c:\temp\recipes.json", serializedRecipes);
+            //File.AppendAllText(@"c:\temp\recipes.json", serializedRecipes);
         }
     }
 }
